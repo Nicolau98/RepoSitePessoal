@@ -1,7 +1,6 @@
 h1{
-    color: red;
-    text-align: center;
-    background-color: black;
+    color: black;
+    
 }
 p{
     color: black;
@@ -13,4 +12,13 @@ td, th {
 th{
     background-color: black;
     color: red;
+}
+.header {
+    padding: 10px 20px;
+    background: #acb3b9;
+}
+}
+body {
+    font: 14px Arial,sans-serif;
+    margin: 0px;
 }
