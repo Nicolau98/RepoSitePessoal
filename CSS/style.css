@@ -2,16 +2,12 @@ h1{
     color: black;
     
 }
-p{
-    color: black;
-    text-align: end;
-}
 td, th {
     border: 1px solid black;
 }
 th{
-    background-color: black;
-    color: red;
+    background-color: cornflowerblue;
+    color: white;
 }
 .header {
     padding: 10px 20px;
@@ -21,4 +17,8 @@ th{
 body {
     font: 14px Arial,sans-serif;
     margin: 0px;
+}
+.ropade{
+    background-color: aqua;
+    color: white;
 }
