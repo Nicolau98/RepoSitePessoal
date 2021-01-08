@@ -15,35 +15,17 @@
           href="css/style.css">
 </head>
 <body>
-    <table class="table">
-        <thead>
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">Primeiro</th>
-                <th scope="col">Último</th>
-                <th scope="col">Nickname</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>@twitter</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="d-print-none">Screen Only (Hide on print only)</div>
+    <div class="d-none d-print-block">Print Only (Hide on screen only)</div>
+    <div class="d-none d-lg-block d-print-block">Hide up to large on screen, but always show on print</div>
+
+    <div class="fixed-bottom">
+        <div class="p-3 mb-2 bg-dark text-white">
+            <footer id="footer" class="clear">
+                <p class="fl_left">Copyright &copy; 2020 - All Rights Reserved - <a href="https://www.facebook.com/nicolau.barranha/">Nicolau Barranha</a></p>
+                <p class="fl_right">Template by <a href="https://www.facebook.com/nicolau.barranha/" title="Facebook Autora">Nicolau Barranha</a></p>
+            </footer>
+        </div>
+    </div>
 </body>
 </html>
